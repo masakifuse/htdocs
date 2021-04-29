@@ -12,7 +12,7 @@ else
 {
 	echo 'ようこそ';
 	echo $_SESSION['member_name'];
-	echo '様';
+	echo '様　';
 	echo '<a href="member_logout.php">ログアウト</a><br />';
 	echo '<br />';
 }

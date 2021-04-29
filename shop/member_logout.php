@@ -11,15 +11,14 @@ session_destroy();
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/style.css">
 <title>ろくまる農園</title>
 </head>
 <body>
 		
 
-<h5>ログアウトしました。</h5>
+ログアウトしました。<br />
 <br />
-<a href="../staff_login/staff_login.html" class="logout">ログイン画面へ</a>
+<a href="shop_list.php">商品一覧へ</a>
 			
 </body>
 </html>

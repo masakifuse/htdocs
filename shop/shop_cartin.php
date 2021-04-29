@@ -35,6 +35,12 @@ try
 	{
   $cart= $_SESSION['cart'];
 	$kazu= $_SESSION['kazu'];
+	if(in_array($pro_code,$cart)==true)
+	{
+		echo 'その商品は既にカートに入っています。<br />';
+		echo '<a href="shop_list.php">商品一覧に戻る</a>';
+		exit();
+	}
 	}
 	$cart[]=$pro_code;
 	$kazu[]=1;

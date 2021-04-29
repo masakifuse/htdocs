@@ -1,0 +1,71 @@
+body {
+  display: inline-block;
+  width: 50%;
+  border:20px solid #47a89c;/* 枠線 */
+  box-sizing:border-box;
+}
+@media screen and (max-width: 767px){
+body {
+  border: 10px solid #47a89c;/* SP枠線の幅 */
+}
+}
+#container {
+  width: 100%;
+  background: -moz-linear-gradient(-135deg, #fff, #fff 10px, #47a89c 0, #47a89c 20px);
+  background: -webkit-linear-gradient(-135deg, #fff, #fff 10px, #47a89c 0, #47a89c 20px);
+  background: repeating-linear-gradient(-45deg, #fff, #fff 10px, #47a89c 0, #47a89c 20px); 
+  padding:20px!important;
+  box-sizing:border-box;
+}
+#container-inner {
+   width: 100%;
+   background-color: #fff;
+}
+@media screen and (max-width: 767px){
+#container {
+  padding:10px!important;
+}
+}
+h1 {
+  text-align: center;
+  background-color: yellow;
+}
+h2 {
+  text-align: center;
+}
+form{
+  text-align: center;
+}
+h5{
+  text-align: center;
+}
+a {
+  display:inline-block;
+  text-decoration: none;
+  background: crimson;
+  color: white;
+
+}
+.button {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #000066;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #000066;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #000066;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+.logout {
+  display:inline-block;
+  
+}
